@@ -1,0 +1,13 @@
+{
+  "name": "turkish-names",
+  "version": "1.0.0",
+  "description": "Turkish names db",
+  "main": "names.min.json",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "json-minify names.json > names.min.json"
+  },
+  "devDependencies": {
+    "json-minify": "^1.0.0"
+  }
+}
